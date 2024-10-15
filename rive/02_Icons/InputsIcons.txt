@@ -1,0 +1,10 @@
+//icon-life.riv
+"getLife"
+"looseLife"
+
+//icon-xp.riv
+"getXp"
+
+//icon_result.riv
+"playGreat"
+"playWrong"

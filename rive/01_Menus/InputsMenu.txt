@@ -1,0 +1,2 @@
+const STATE_MACHINE_NAME = "State Machine 1";
+input = "PlayAnimation";
