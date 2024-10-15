@@ -14,13 +14,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #041274;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  
   color: white;
 }
 
@@ -32,6 +33,77 @@
   height: 70px;
   width:  70px;
 }
+.containerAvatars {
+  height: 200px;
+  width:  200px;
+}
+.containerMenu {
+
+  height: 80px;
+  width:  80px;
+  
+}
+.containerIcones {
+
+  height: 100px;
+  width:  100px;
+  
+}
+.containerBigAvatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+  height: 300px;
+  width:  300px;
+}
+
+.containerLigne {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+ 
+  
+}
+
+.containerTxt {
+  justify-content: center;
+  align-items: center;
+  height: 0px;
+
+  
+}
+
+.containerImage {
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+
+}
+.containerButton {
+  background-color: #ff8640;
+  -webkit-text-fill-color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight:400;
+  flex-direction: column;
+  border: none;
+  margin : 2px 0;
+  width: 100px;
+  height: 30px;
+gi
+}
+.containerButton:hover {
+  background-color: #6effd4; /* Green */
+  color: white;
+}
+
+
+
 
 @keyframes App-logo-spin {
   from {
